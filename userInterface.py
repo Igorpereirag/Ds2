@@ -1,7 +1,7 @@
 from dddRepository import DDDRepository
 
 
-class UserInterface:
+class UserInterface: 
     def __init__(self, dddrepository: DDDRepository) -> None:
         self.dddrepository = dddrepository
 
